@@ -1,0 +1,36 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Genesis runtime data (workspaces, APKs, logs, gradle cache)
+/data/
+
+# Android template build outputs
+android_template/.gradle/
+android_template/build/
+android_template/app/build/
+android_template/local.properties
+android_template/genesis.properties
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Built phone app
+dist/
+mobile/.gradle/
+mobile/build/
+mobile/app/build/
+mobile/local.properties
+mobile/.kotlin/
+
+# Tool caches
+.ruff_cache/
